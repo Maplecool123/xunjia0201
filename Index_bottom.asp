@@ -1,0 +1,6 @@
+<%
+call CloseConn()
+%>
+
+</body>
+</html>

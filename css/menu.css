@@ -1,0 +1,133 @@
+body {
+	font-size: 10pt;
+	background-color: #BED5F0;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+td {
+  font-size: 10pt;
+	line-height:normal;
+}
+A {
+  text-transform: none;
+	text-decoration: none;
+	font-size: 10pt;
+}
+select {
+  font-size: 10pt;
+}
+input {
+  font-size: 10pt;
+}
+a:hover {
+  text-decoration:underline;
+	color: #FFFFFF;
+	font-size: 10pt;
+}
+.menu_title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: White;
+}
+.menu {
+	background-color: #BED5F0;
+	cursor: pointer;
+	width: 150;
+	font-size: 10pt;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom:3px;
+	color: #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid #8DB5E5;
+}
+.menu_down {
+	background-color: #FFFFDD;
+	cursor: pointer;
+	width: 150;
+	font-size: 10pt;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom:3px;
+	color: #990000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid #8DB5E5;
+}
+.submenu {
+	background-color: #E1E9F4;
+	width: 150px;
+	cursor: pointer;
+	font-size: 10pt;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom:3px;
+	color: #005599;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid #BED5F0;
+}
+.submenu_down {
+	background-color: #FFFFDD;
+	width: 150px;
+	cursor: pointer;
+	font-size: 10pt;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom:3px;
+	color: #990000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid #BED5F0;
+}
+.submenu_active {
+	background-color: #FFFFFF;
+	cursor: pointer;
+	width: 150px;
+	font-size: 10pt;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom:3px;
+	color: #990000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid #BED5F0;
+}
+.week {
+	height: 40px;
+	width: 60px;
+	margin-top: 5px;
+	margin-left: 2px;
+	font-family: "Arial Black";
+	font-size: 20pt;
+	text-align: center;
+	background-color: #FFFF99;
+	color: #FF0000;
+	float: left;
+    background-image: url("../images/week.png");
+}
+.week_mark {
+	height: 40px;
+	width: 60px;
+	margin-top: 5px;
+	margin-left: 2px;
+	font-family: "Arial Black";
+	font-size: 20pt;
+	text-align: center;
+	background-color: #FF99FF;
+	color: #FF0000;
+	float: left;
+    background-image: url("../images/week_mark.png");
+}
+.range {
+	float: none;
+	height: 35px;
+	margin-top: 2px;
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+}
